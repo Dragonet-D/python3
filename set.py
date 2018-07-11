@@ -45,6 +45,47 @@ print(thisset)
 # 移除集合中的元素，且如果元素不存在，不会发生错误
 thisset.discard('12312')
 
+# 随机删除集合中的一个元素
+thisset.pop()
+len(thisset)
+thisset.clear()
+
+'''
+ s.update( {"字符串"} ) 将字符串添加到集合中。
+ s.update( "字符串" ) 将字符串拆分单个字符后，然后再一个个添加到集合中，有重复的会忽略
+'''
+setUpdate = {'a'}
+
+setUpdate.update('字符串')
+setUpdate.update({'字符串'})
+print(setUpdate)
+
+# set() 中参数注意事项
+my_set = {'apple'}
+print(my_set)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
