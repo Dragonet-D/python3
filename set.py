@@ -21,3 +21,30 @@ print(a ^ b) # 不同时包含于a和b的元素
 
 aaa = {x for x in "aaaaaasdasdasdweqw" if x not in 'abc'}
 print(aaa)
+
+s = set('qwerty')
+s.add('a')
+print(s)
+
+thisset = set(('Google'))
+thisset1 = {"Google", "Runoob", "Taobao"}
+print(thisset)
+print(thisset1)
+
+# 可以添加元素，且参数可以是列表，元组，字典等
+thisset.update({1, 3})
+print(thisset)
+
+thisset.update([1, 4], [5, 6])
+print(thisset)
+
+# 移除元素 如果元素不存在则会发生错误
+thisset.remove(1)
+print(thisset)
+
+# 移除集合中的元素，且如果元素不存在，不会发生错误
+thisset.discard('12312')
+
+
+
+
