@@ -140,5 +140,20 @@ while i <= 9:
     print('')
     i+=1
 
+def area(width, height):
+    return width * height
+
+def print_welcome(name):
+    print("Welcome", name)
+
+print_welcome("jhon")
+w = 4
+h = 5
+print(area(w, h))
+
+var1 = 100
+if var1:
+    print(var1)
+
 
 
